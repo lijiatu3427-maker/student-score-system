@@ -17,9 +17,10 @@ def about():
 def project():
     return "<h1>我的项目</h1><p>学生成绩管理系统 V2.1</p>"
 
+
 @app.route("/contact")
 def contact():
-    return "<h1>联系方式：GitHub: lijiatu3427-maker</p>"
+    return "<h1>联系方式</h1><p>GitHub: lijiatu3427-maker</p>"
 
 if __name__ == "__main__":
     app.run(debug=True)
