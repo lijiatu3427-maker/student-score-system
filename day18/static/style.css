@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, "Microsoft YaHei", sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #222;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.footer {
+    margin-top: 40px;
+    color: #777;
+    font-size: 14px;
+}
+
+nav a.active {
+    color: #ffd700;
+    font-weight: bold;
+}

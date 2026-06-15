@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <nav>
+        <a href="/">首页</a>
+        <a href="/about" class="active">关于我</a>
+        <a href="/project">我的项目</a>
+        <a href="/contact">联系方式</a>
+    </nav>
+
+    <div class="container">
+        <h1>关于我</h1>
+        <p>我是电子信息专业研究生，目前正在学习 Python、Flask、AI 工程和多模态方向。</p>
+
+        <h2>学习方向</h2>
+        <ul>
+            <li>Python 基础</li>
+            <li>Flask Web 开发</li>
+            <li>AI 工程</li>
+            <li>多模态方向</li>
+        </ul>
+
+        <p class="footer">© 2026 李嘉图的 Flask 学习项目</p>
+    </div>
+
+</body>
+</html>
